@@ -1,5 +1,5 @@
 {
-  "name": "picturefill",
+  "name": "responsive-font-sizes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "John Stewart <john.stew.digital@gmail.com> (http://johnstewart.net)",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
