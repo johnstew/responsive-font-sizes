@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+h1, h2, h3, h4 {
+  font-family: 'Shadows Into Light Two', cursive; }
+
+.container {
+  display: block;
+  width: 1200px;
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+.btn {
+  display: inline-block;
+  width: 120px;
+  background: #F44336;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 35px 30px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  border-bottom: 5px solid #CA1E12;
+  opacity: 1;
+  top: 0px;
+  margin: 20px 0px 0px 90px; }
+  .btn:hover {
+    opacity: .85; }
+  .btn:active {
+    border-bottom: 0px solid #CA1E12;
+    top: 5px; }
