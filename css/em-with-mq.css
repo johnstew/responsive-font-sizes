@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+h1, h2, h3, h4 {
+  font-family: 'Shadows Into Light Two', cursive; }
+
+.container {
+  display: block;
+  width: 1200px;
+  margin: 0 auto; }
+
+body {
+  font-size: 16px; }
+
+h1 {
+  font-size: 4.75em; }
+
+p {
+  font-size: 1.5em; }
+
+@media (min-width: 960px) and (max-width: 1279px) {
+  .container {
+    width: 100%; }
+  body {
+    font-size: 15px; }
+  h1 {
+    font-size: 4.4em; }
+  p {
+    font-size: 1.375em; } }
+
+@media (min-width: 769px) and (max-width: 959px) {
+  .container {
+    width: 100%; }
+  body {
+    font-size: 14px; }
+  h1 {
+    font-size: 3.85em; }
+  p {
+    font-size: 1.42em; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; }
+  body {
+    font-size: 13px; }
+  h1 {
+    font-size: 2.46em; }
+  p {
+    font-size: 1.23em; } }
+
+@media (max-width: 420px) {
+  .container {
+    width: 100%; }
+  body {
+    font-size: 13px; }
+  h1 {
+    font-size: 2em; }
+  p {
+    font-size: 1.07em; } }
